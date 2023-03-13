@@ -2,7 +2,7 @@ const vidElem = document.querySelector('#jw-player');
 const vidJw = jwplayer('jw-player');
 const movieElem = document.querySelector('#movie');
 const movieJw = jwplayer('movie');
-const logoImage = `https://blogger.googleusercontent.com/img/a/AVvXsEgjob8RTANZFIp4ie6YfnlTUQwXr067HX38U2I_tibE7QCm9GJOQxBJfxSORfCIUZtCaFVtdJH8TY507wDnQSE1rG80H5GxPrrkzjEwAXmg7C46pM3JblQXDFOl248SN-m6FQiEDr_cLQAfKUBySCK1mq4744O_0gj0kz8a79P-SV67nFezKwl-gxOn=s945`;
+const logoImage = `https://blogger.googleusercontent.com/img/a/AVvXsEhanLmKsOOhS-wanuq-6Xo7ML68_SDZ3f0VKGGKcJKEJ7DcwOcJtrQtu339omTcPI0nhGnftW9VG7dOCjqFbJYvHOHF-509w58fCg7ZuexajA69bZ4crq4GQTAg5vos5Ku0Ml70F-rXlcgdjzz1vzBmw5Zi_YlOGZO2tP2j-aC_bw_OTqMPwSE9a2nw=s1017`;
 const createCustomLogo = () => {
     let logo = {
         file: logoImage,
